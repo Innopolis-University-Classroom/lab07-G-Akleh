@@ -2,12 +2,17 @@
 #include <cmath>
 using namespace std;
 
+template <typename T>
+void declare() {
+    T bill;
+    T tiptotal;
+    T total;
+    T tip;
+}
+
 int main()
 {
-    double bill;
-    double tiptotal;
-    double total;
-    double tip;
+    declare();
 
     cout<<"\n\nWelcome to tip Calculator\n";
     cout <<"------------------------------\n";
