@@ -5,7 +5,8 @@
 template <typename T>
 void multiples (T& sum, T x, int n)
 {
-  for (int i = 0 ; i <= n ; i++) {
+  sum++;
+  for (int i = 1 ; i <= n ; i++) {
     sum += i * x;
   }
 }
