@@ -13,10 +13,10 @@ public:
         num2 = n2;
     }
 
-    T add(T n1, T n2) { return n1 + n2; }
-    T subtract(T n1, T n2) { return n1 - n2; }
-    T multiply(T n1, T n2) { return n1 * n2; }
-    T divide(T n1, T n2) { return n1 / n2; }
+    T add() { return num1 + num2; }
+    T subtract() { return num1 - num2; }
+    T multiply() { return num1 * num2; }
+    T divide() { return num1 / num2; }
 };
 
 
